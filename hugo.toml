@@ -1,4 +1,4 @@
-baseURL = 'forthrightesoterica.pages.dev'
+baseURL = 'https://forthrightesoterica.pages.dev'
 languageCode = 'en-us'
 title = 'Forthright Esoterica'
 theme = 'hugo-bearblog'

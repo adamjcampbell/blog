@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>forthrightesoterica.pages.dev/categories/</loc>
+    <loc>https://forthrightesoterica.pages.dev/categories/</loc>
   </url><url>
-    <loc>forthrightesoterica.pages.dev/</loc>
+    <loc>https://forthrightesoterica.pages.dev/</loc>
   </url><url>
-    <loc>forthrightesoterica.pages.dev/tags/</loc>
+    <loc>https://forthrightesoterica.pages.dev/tags/</loc>
   </url>
 </urlset>
