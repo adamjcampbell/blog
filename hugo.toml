@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'forthrightesoterica.pages.dev'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Forthright Esoterica'
 theme = 'hugo-bearblog'
