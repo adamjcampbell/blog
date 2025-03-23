@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Vavoom! | Forthright Esoterica</title>
+<meta name="title" content="Vavoom!" />
+<meta name="description" content="At my &lsquo;jobby job&rsquo; I am fortunate enough to have made not one but two File -&gt; New Project iOS apps targeting modern iOS with Swift 6 within the last 6 months. We test and iterate fairly quickly on these tool-like applications. Risk of deployment of these apps is also low due to them being internal. In this vein I have been searching for a lightweight, fast and robust way to make these applications." />
+<meta name="keywords" content="swift," />
+
+
+<meta property="og:url" content="http://localhost:1313/blog/vavoom/">
+  <meta property="og:site_name" content="Forthright Esoterica">
+  <meta property="og:title" content="Vavoom!">
+  <meta property="og:description" content="At my ‘jobby job’ I am fortunate enough to have made not one but two File -&gt; New Project iOS apps targeting modern iOS with Swift 6 within the last 6 months. We test and iterate fairly quickly on these tool-like applications. Risk of deployment of these apps is also low due to them being internal. In this vein I have been searching for a lightweight, fast and robust way to make these applications.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2025-03-23T10:48:33+11:00">
+    <meta property="article:modified_time" content="2025-03-23T10:48:33+11:00">
+    <meta property="article:tag" content="Swift">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Vavoom!">
+  <meta name="twitter:description" content="At my ‘jobby job’ I am fortunate enough to have made not one but two File -&gt; New Project iOS apps targeting modern iOS with Swift 6 within the last 6 months. We test and iterate fairly quickly on these tool-like applications. Risk of deployment of these apps is also low due to them being internal. In this vein I have been searching for a lightweight, fast and robust way to make these applications.">
+
+
+
+
+  <meta itemprop="name" content="Vavoom!">
+  <meta itemprop="description" content="At my ‘jobby job’ I am fortunate enough to have made not one but two File -&gt; New Project iOS apps targeting modern iOS with Swift 6 within the last 6 months. We test and iterate fairly quickly on these tool-like applications. Risk of deployment of these apps is also low due to them being internal. In this vein I have been searching for a lightweight, fast and robust way to make these applications.">
+  <meta itemprop="datePublished" content="2025-03-23T10:48:33+11:00">
+  <meta itemprop="dateModified" content="2025-03-23T10:48:33+11:00">
+  <meta itemprop="wordCount" content="535">
+  <meta itemprop="keywords" content="Swift">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+      --width: 720px;
+      --font-main: Verdana, sans-serif;
+      --font-secondary: Verdana, sans-serif;
+      --font-scale: 1em;
+      --background-color: #fff;
+      --heading-color: #222;
+      --text-color: #444;
+      --link-color: #3273dc;
+      --visited-color:  #8b6fcb;
+      --code-background-color: #f2f2f2;
+      --code-color: #222;
+      --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+      :root {
+          --background-color: #01242e;
+          --heading-color: #eee;
+          --text-color: #ddd;
+          --link-color: #8cc2dd;
+          --visited-color:  #8b6fcb;
+          --code-background-color: #000;
+          --code-color: #ddd;
+          --blockquote-color: #ccc;
+      }
+  }
+
+  body {
+      font-family: var(--font-secondary);
+      font-size: var(--font-scale);
+      margin: auto;
+      padding: 20px;
+      max-width: var(--width);
+      text-align: left;
+      background-color: var(--background-color);
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      line-height: 1.5;
+      color: var(--text-color);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+      font-family: var(--font-main);
+      color: var(--heading-color);
+  }
+
+  a {
+      color: var(--link-color);
+      cursor: pointer;
+      text-decoration: none;
+  }
+
+  a:hover {
+      text-decoration: underline;
+  }
+
+  nav a {
+      margin-right: 8px;
+  }
+
+  strong, b {
+      color: var(--heading-color);
+  }
+
+  button {
+      margin: 0;
+      cursor: pointer;
+  }
+
+  time {
+   	font-family: monospace;
+    	font-style: normal;
+    	font-size: 15px;
+  }
+
+  main {
+      line-height: 1.6;
+  }
+
+  table {
+      width: 100%;
+  }
+
+  hr {
+      border: 0;
+      border-top: 1px dashed;
+  }
+
+  img {
+      max-width: 100%;
+  }
+
+  code {
+      font-family: monospace;
+      padding: 2px;
+      background-color: var(--code-background-color);
+      color: var(--code-color);
+      border-radius: 3px;
+  }
+
+  blockquote {
+      border-left: 1px solid #999;
+      color: var(--code-color);
+      padding-left: 20px;
+      font-style: italic;
+  }
+
+  footer {
+      padding: 25px 0;
+      text-align: center;
+  }
+
+  .title:hover {
+      text-decoration: none;
+  }
+
+  .title h1 {
+      font-size: 1.5em;
+  }
+
+  .inline {
+      width: auto !important;
+  }
+
+  .highlight, .code {
+      padding: 1px 15px;
+      background-color: var(--code-background-color);
+      color: var(--code-color);
+      border-radius: 3px;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      overflow-x: auto;
+  }
+
+   
+  ul.blog-posts {
+      list-style-type: none;
+      padding: unset;
+  }
+
+  ul.blog-posts li {
+      display: flex;
+  }
+
+  ul.blog-posts li span {
+      flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+      color: var(--visited-color);
+  }
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Forthright Esoterica</h2>
+</a>
+<nav><a href="/">Home</a>
+
+
+<a href="/blog">Blog</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>Vavoom!</h1>
+<p>
+  <i>
+    <time datetime='2025-03-23'>
+      23 Mar, 2025
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>At my &lsquo;jobby job&rsquo; I am fortunate enough to have made not one but two <em>File -&gt; New Project</em> iOS apps targeting modern iOS with Swift 6 within the last 6 months. We test and iterate fairly quickly on these tool-like applications. Risk of deployment of these apps is also low due to them being internal. In this vein I have been searching for a lightweight, fast and robust way to make these applications.</p>
+<h2 id="view-as-view-model">View as View Model</h2>
+<h3 id="shifting-view-paradigm">Shifting View Paradigm</h3>
+<p>I have felt moderately strongly since using SwiftUI in anger that what Apple defined as a <code>View</code> in SwiftUI does not closely align with what we used to think of as a view. To contrast we can look at the definitions from Apple&rsquo;s own documentation:</p>
+<blockquote>
+<p>UIKit - UIView</p>
+<p>An object that manages the content for a rectangular area on the screen.
+<a href="https://developer.apple.com/documentation/uikit/uiview">Source</a></p></blockquote>
+<blockquote>
+<p>SwiftUI - View</p>
+<p>A type that represents part of your app’s user interface and provides modifiers that you use to configure views.
+<a href="https://developer.apple.com/documentation/swiftui/view">Source</a></p></blockquote>
+<p>From this we can see the movement from &lsquo;managing the content for a rectangular area&rsquo; to &lsquo;representing a part of your app&rsquo;s user interface&rsquo; more clearly.</p>
+<h3 id="whats-a-view-model-anyway">What&rsquo;s a View Model anyway?</h3>
+<p>There are countless places to read about the MVVM architecture and the role of a view model. But for the purposes of this article, let&rsquo;s look to Google to see what our Android friends are using a View Model for.</p>
+<blockquote>
+<p>App Architecture - ViewModel</p>
+<p>The <code>ViewModel</code> class is a business logic or screen level state holder. It exposes state to the UI and encapsulates related business logic. Its principal advantage is that it caches state and persists it through configuration changes. This means that your UI doesn’t have to fetch data again when navigating between activities, or following configuration changes, such as when rotating the screen.
+<a href="https://developer.android.com/topic/libraries/architecture/viewmodel">Source</a></p></blockquote>
+<p>As we can see the Android constraints here are a little different than we deal with over on the iOS side of the fence. Apple has given us the tools we need to make the <code>View</code> a &lsquo;state holder&rsquo; (via <code>@State</code> and friends). These wrappers also successfully hold state through the equivalent of what Android terms a &lsquo;configuration change&rsquo; e.g. rotation or colour scheme changes. There may or may not be reasons to extract your business logic from a <code>View</code> (sharing, consistency, de-duplication, etc). Through this analysis however we can see that there are less imperatives to make that code sharing entity a <code>ViewModel</code>.</p>
+<h3 id="the-approach">The approach</h3>
+<p>The approach to crafting a View here is a simple one:</p>
+<ol>
+<li>Encapsulate the source of truth</li>
+<li>Expose display logic as computed properties</li>
+<li>Define actions as functions</li>
+</ol>
+<p>The desired outcome is having Views that format their data as required, own their view related business logic and are testable.</p>
+<h4 id="hurdles--solutions">Hurdles / Solutions</h4>
+<p>Unfortunately a major hurdle to this outcome is Apple&rsquo;s own tooling. <code>@State</code> and friends are black boxes and we have next to no control. How this limits testing is probably its own post, so for now I&rsquo;ll have to say <em>trust me bro</em>. However leaning on some lovely work by the folks at <a href="https://www.pointfree.co/">Point Free</a> we can clear these hurdles. Primarily using the new <a href="https://github.com/pointfreeco/swift-sharing">Sharing</a> library.</p>
+<h3 id="implementation">Implementation</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">MyView</span>: View {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> something: String
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+</content>
+<p>
+  
+  <a href="http://localhost:1313/tags/swift/">#Swift</a>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+    
+</body>
+
+</html>

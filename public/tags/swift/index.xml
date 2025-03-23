@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swift on Forthright Esoterica</title>
+    <link>http://localhost:1313/tags/swift/</link>
+    <description>Recent content in Swift on Forthright Esoterica</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Mar 2025 10:48:33 +1100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/swift/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vavoom!</title>
+      <link>http://localhost:1313/blog/vavoom/</link>
+      <pubDate>Sun, 23 Mar 2025 10:48:33 +1100</pubDate>
+      <guid>http://localhost:1313/blog/vavoom/</guid>
+      <description>&lt;p&gt;At my &amp;lsquo;jobby job&amp;rsquo; I am fortunate enough to have made not one but two &lt;em&gt;File -&amp;gt; New Project&lt;/em&gt; iOS apps targeting modern iOS with Swift 6. We test and iterate fairly quickly on these tool-like applications. Risk of deployment of these apps is also low due to them being internal. In this vein I have been searching for a lightweight, fast and robust way to make these applications.&lt;/p&gt;&#xA;&lt;h2 id=&#34;view-as-view-model&#34;&gt;View as View Model&lt;/h2&gt;&#xA;&lt;h3 id=&#34;shifting-view-paradigm&#34;&gt;Shifting View Paradigm&lt;/h3&gt;&#xA;&lt;p&gt;I have felt moderately strongly since using SwiftUI in anger that what Apple defined as a &lt;code&gt;View&lt;/code&gt; in SwiftUI does not closely align with what we used to think of as a view. To contrast we can look at the definitions from Apple&amp;rsquo;s own documentation:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
