@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://forthrightesoterica.pages.dev/categories/</loc>
+    <loc>https://forthrightesoterica.pages.dev/blog/</loc>
+    <lastmod>2025-03-23T10:48:33+11:00</lastmod>
   </url><url>
     <loc>https://forthrightesoterica.pages.dev/</loc>
+    <lastmod>2025-03-23T10:48:33+11:00</lastmod>
+  </url><url>
+    <loc>https://forthrightesoterica.pages.dev/blog/test/</loc>
+    <lastmod>2025-03-23T10:48:33+11:00</lastmod>
+  </url><url>
+    <loc>https://forthrightesoterica.pages.dev/categories/</loc>
   </url><url>
     <loc>https://forthrightesoterica.pages.dev/tags/</loc>
   </url>
