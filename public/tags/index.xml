@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Forthright Esoterica</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://forthrightesoterica.pages.dev/tags/</link>
     <description>Recent content in Tags on Forthright Esoterica</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 14 Apr 2025 22:20:00 +1000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://forthrightesoterica.pages.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cairn</title>
-      <link>http://localhost:1313/tags/cairn/</link>
+      <link>https://forthrightesoterica.pages.dev/tags/cairn/</link>
       <pubDate>Mon, 14 Apr 2025 22:20:00 +1000</pubDate>
-      <guid>http://localhost:1313/tags/cairn/</guid>
+      <guid>https://forthrightesoterica.pages.dev/tags/cairn/</guid>
       <description></description>
     </item>
     <item>
       <title>Ttrpg</title>
-      <link>http://localhost:1313/tags/ttrpg/</link>
+      <link>https://forthrightesoterica.pages.dev/tags/ttrpg/</link>
       <pubDate>Mon, 14 Apr 2025 22:20:00 +1000</pubDate>
-      <guid>http://localhost:1313/tags/ttrpg/</guid>
+      <guid>https://forthrightesoterica.pages.dev/tags/ttrpg/</guid>
       <description></description>
     </item>
   </channel>
