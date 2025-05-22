@@ -47,13 +47,26 @@ The desired outcome is having Views that format their data as required, own thei
 
 #### Hurdles / Solutions
 
-Unfortunately a major hurdle to this outcome is Apple's own tooling. `@State` and friends are black boxes and we have next to no control. How this limits testing is probably its own post, so for now I'll have to say _trust me bro_. However leaning on some lovely work by the folks at [Point Free](https://www.pointfree.co/) we can clear these hurdles. Primarily using the new [Sharing](https://github.com/pointfreeco/swift-sharing) library.
+Unfortunately a major hurdle to this outcome is Apple's own tooling. `@State` and friends are black boxes and we have next to no control. How this limits testing is probably its own post. However leaning on some lovely work by the folks at [Point Free](https://www.pointfree.co/) we can clear these hurdles. Primarily using the new [Sharing](https://github.com/pointfreeco/swift-sharing) library.
 
 ### Implementation
 
+Source code for this implementation can be found [here](https://github.com/adamjcampbell/vavoom/)
+
+So what does one of these Views look like?
+
 ```swift
-struct MyView: View {
-    var something: String
+struct QuoteView: View {
+    @State.SharedReader(value: Optional<AnimeQuote>.none) var animeQuote
+
+    var quotee: String {
+        let quotee = animeQuote?.character ?? "Example Name"
+        return "- \(quotee)"
+    }
 }
 ```
+
+Above we have a snippet, part of the `QuoteView` that uses a `SharedReader` (wrapped in SwifUI State for nice attachement and detachement behaviour native to SwiftUI). The `SharedReader` `animeQuote` is our goal listed in the approach as `1`. An encapsulation of our state, it manages the ability to store, load and subscribe to updates of state values. Here we just initialise it with a nil quote.
+
+Next we have a computed variable `quotee` that will either contain the character from the anime quote or some dummy text. 
 
